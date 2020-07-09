@@ -28,7 +28,7 @@ const exampleReq =
  return(
      <div className="App">
          <div className="heading">
-         <h1 >Priyanka's Recipe Book</h1>
+         <h1>⚜️Priyanka's Recipe Book⚜️</h1>
          <h2>Nothing brings people together like good food</h2></div>
         <form onSubmit={getSearch} className="search-form">
             <input className="search-bar" type="text" value={search} onChange={updateSearch}placeholder="search through ingredient" required/>
